@@ -9,7 +9,7 @@ namespace Aquarium
 {
 
 
-    public class Fish
+   abstract class Fish
     {
 
        public string Name { get; set; }
@@ -17,7 +17,7 @@ namespace Aquarium
         public string Colour { get;  set; }
        
         
-        public Fish( string name, string desc, string colour)
+       protected Fish( string name, string desc, string colour)
         {
            Name = name;
             Desc = desc;
