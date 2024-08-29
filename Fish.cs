@@ -9,14 +9,15 @@ namespace Aquarium
 {
 
 
-    abstract class Fish
+    public class Fish
     {
 
-       public string Name { get; protected set; }
-        public string Desc { get; protected set; }
-        public string Colour { get; protected set; }
+       public string Name { get; set; }
+        public string Desc { get; set; }
+        public string Colour { get;  set; }
        
-        protected Fish( string name, string desc, string colour)
+        
+        public Fish( string name, string desc, string colour)
         {
            Name = name;
             Desc = desc;
@@ -24,11 +25,14 @@ namespace Aquarium
           
             
         }
-        public abstract void PrintInfo();
 
        
-     
-
         
+
+       
+       
+
+
+
     }
 }
