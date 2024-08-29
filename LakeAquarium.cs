@@ -9,6 +9,6 @@ namespace Aquarium
     internal class LakeAquarium
     {
        
-        //Useless class after an update to OceanFish.cs. Can be ignored
+        //Useless class after an update to LakeFish.cs. Can be ignored
     }
 }
