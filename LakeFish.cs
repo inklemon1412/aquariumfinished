@@ -17,7 +17,7 @@ namespace Aquarium
 
         }
         public LakeFish()
-            : base("", "", "")
+            : base()
         {
             
         }
